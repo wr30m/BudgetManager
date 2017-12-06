@@ -8,8 +8,9 @@ public class PurchaseCategory {
     private String label;
     private Double amount;
 
-    public PurchaseCategory(String label) {
+    public PurchaseCategory(String label, Double amount) {
         this.label = label;
+        this.amount = amount;
     }
 
     public String getLabel() {
